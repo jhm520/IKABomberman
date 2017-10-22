@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BomberCharacter.h"
+#include "GameFramework/InputSettings.h"
+#include "GameFramework/PlayerInput.h"
 
 
 
@@ -17,11 +19,10 @@ ABomberCharacter::ABomberCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	InputMap.Add(EMovementInputEnum::Up, false);
-	InputMap.Add(EMovementInputEnum::Down, false);
-	InputMap.Add(EMovementInputEnum::Left, false);
-	InputMap.Add(EMovementInputEnum::Right, false);
-
+	InputMap.Add(EInputEnum::Up, false);
+	InputMap.Add(EInputEnum::Down, false);
+	InputMap.Add(EInputEnum::Left, false);
+	InputMap.Add(EInputEnum::Right, false);
 }
 
 // Called when the game starts or when spawned
@@ -31,9 +32,49 @@ void ABomberCharacter::BeginPlay()
 	
 }
 
-void ABomberCharacter::SetInput(const EMovementInputEnum InInputKey, const bool bPressed)
+void ABomberCharacter::OnMoveUpPressed()
 {
-	bool* FoundInput = InputMap.Find(InInputKey);
+	SetInput(EInputEnum::Up, true);
+}
+
+void ABomberCharacter::OnMoveUpReleased()
+{
+	SetInput(EInputEnum::Up, false);
+}
+
+void ABomberCharacter::OnMoveDownPressed()
+{
+	SetInput(EInputEnum::Down, true);
+}
+
+void ABomberCharacter::OnMoveDownReleased()
+{
+	SetInput(EInputEnum::Down, false);
+}
+
+void ABomberCharacter::OnMoveLeftPressed()
+{
+	SetInput(EInputEnum::Left, true);
+}
+
+void ABomberCharacter::OnMoveLeftReleased()
+{
+	SetInput(EInputEnum::Left, false);
+}
+
+void ABomberCharacter::OnMoveRightPressed()
+{
+	SetInput(EInputEnum::Right, true);
+}
+
+void ABomberCharacter::OnMoveRightReleased()
+{
+	SetInput(EInputEnum::Right, false);
+}
+
+void ABomberCharacter::SetInput(const EInputEnum InInputAction, const bool bPressed)
+{
+	bool* FoundInput = InputMap.Find(InInputAction);
 
 	const bool InputIsPressed = *FoundInput;
 
@@ -44,63 +85,39 @@ void ABomberCharacter::SetInput(const EMovementInputEnum InInputKey, const bool 
 		if (bPressed)
 		{
 
-			switch (InInputKey)
+			switch (InInputAction)
 			{
-				case EMovementInputEnum::Up:
+				case EInputEnum::Up:
 					InputVector += MovementInputVectors::Up;
 					break;
-				case EMovementInputEnum::Down:
+				case EInputEnum::Down:
 					InputVector += MovementInputVectors::Down;
 					break;
-				case EMovementInputEnum::Left:
+				case EInputEnum::Left:
 					InputVector += MovementInputVectors::Left;
 					break;
-				case EMovementInputEnum::Right:
+				case EInputEnum::Right:
 					InputVector += MovementInputVectors::Right;
 					break;
 			}
-			/*MovementSwitch = InInputKey;
-			MovementKeysPressedNum++;*/
 		}
 		else
 		{
-			switch (InInputKey)
+			switch (InInputAction)
 			{
-				case EMovementInputEnum::Up:
+				case EInputEnum::Up:
 					InputVector -= MovementInputVectors::Up;
 					break;
-				case EMovementInputEnum::Down:
+				case EInputEnum::Down:
 					InputVector -= MovementInputVectors::Down;
 					break;
-				case EMovementInputEnum::Left:
+				case EInputEnum::Left:
 					InputVector -= MovementInputVectors::Left;
 					break;
-				case EMovementInputEnum::Right:
+				case EInputEnum::Right:
 					InputVector -= MovementInputVectors::Right;
 					break;
 			}
-
-			/*if (MovementKeysPressedNum > 0)
-			{
-				MovementKeysPressedNum--;
-			}
-			
-			if (MovementKeysPressedNum == 0)
-			{
-				MovementSwitch = EMovementInputEnum::None;
-				return;
-			}
-			else
-			{
-				for (TPair<EMovementInputEnum, bool> InputPair : InputMap)
-				{
-					if (InputPair.Value)
-					{
-						MovementSwitch = InputPair.Key;
-						break;
-					}
-				}
-			}*/
 		}
 	}
 }
@@ -108,24 +125,6 @@ void ABomberCharacter::SetInput(const EMovementInputEnum InInputKey, const bool 
 void ABomberCharacter::TickMovement()
 {
 	AddMovementInput(InputVector, 1.0f);
-
-	/*switch (MovementSwitch)
-	{
-		case EMovementInputEnum::None:
-			break;
-		case EMovementInputEnum::Up:
-			AddMovementInput(MovementInputVectors::Up, 1.0f);
-			break;
-		case EMovementInputEnum::Down:
-			AddMovementInput(MovementInputVectors::Down, 1.0f);
-			break;
-		case EMovementInputEnum::Left:
-			AddMovementInput(MovementInputVectors::Left, 1.0f);
-			break;
-		case EMovementInputEnum::Right:
-			AddMovementInput(MovementInputVectors::Right, 1.0f);
-			break;
-	}*/
 }
 
 // Called every frame
@@ -140,6 +139,44 @@ void ABomberCharacter::Tick(float DeltaTime)
 void ABomberCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	APlayerController* PlayerController = Cast<APlayerController>(GetController());
+
+	if (!PlayerController)
+	{
+		return;
+	}
+
+	const int32 PlayerID = PlayerController->GetLocalPlayer()->GetControllerId();
+
+	if (PlayerID == 0)
+	{
+		InputComponent->BindAction("P1_MoveUp", IE_Pressed, this, &ABomberCharacter::OnMoveUpPressed);
+		InputComponent->BindAction("P1_MoveUp", IE_Released, this, &ABomberCharacter::OnMoveUpReleased);
+
+		InputComponent->BindAction("P1_MoveDown", IE_Pressed, this, &ABomberCharacter::OnMoveDownPressed);
+		InputComponent->BindAction("P1_MoveDown", IE_Released, this, &ABomberCharacter::OnMoveDownReleased);
+
+		InputComponent->BindAction("P1_MoveLeft", IE_Pressed, this, &ABomberCharacter::OnMoveLeftPressed);
+		InputComponent->BindAction("P1_MoveLeft", IE_Released, this, &ABomberCharacter::OnMoveLeftReleased);
+
+		InputComponent->BindAction("P1_MoveRight", IE_Pressed, this, &ABomberCharacter::OnMoveRightPressed);
+		InputComponent->BindAction("P1_MoveRight", IE_Released, this, &ABomberCharacter::OnMoveRightReleased);
+	}
+	else if (PlayerID == 1)
+	{
+		InputComponent->BindAction("P2_MoveUp", IE_Pressed, this, &ABomberCharacter::OnMoveUpPressed);
+		InputComponent->BindAction("P2_MoveUp", IE_Released, this, &ABomberCharacter::OnMoveUpReleased);
+
+		InputComponent->BindAction("P2_MoveDown", IE_Pressed, this, &ABomberCharacter::OnMoveDownPressed);
+		InputComponent->BindAction("P2_MoveDown", IE_Released, this, &ABomberCharacter::OnMoveDownReleased);
+
+		InputComponent->BindAction("P2_MoveLeft", IE_Pressed, this, &ABomberCharacter::OnMoveLeftPressed);
+		InputComponent->BindAction("P2_MoveLeft", IE_Released, this, &ABomberCharacter::OnMoveLeftReleased);
+
+		InputComponent->BindAction("P2_MoveRight", IE_Pressed, this, &ABomberCharacter::OnMoveRightPressed);
+		InputComponent->BindAction("P2_MoveRight", IE_Released, this, &ABomberCharacter::OnMoveRightReleased);
+	}
 
 }
 

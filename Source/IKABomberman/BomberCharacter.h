@@ -6,8 +6,11 @@
 #include "GameFramework/Character.h"
 #include "BomberCharacter.generated.h"
 
+
+struct FKey;
+
 UENUM(BlueprintType)
-enum class EMovementInputEnum : uint8
+enum class EInputEnum : uint8
 {
 	None	UMETA(DisplayName = "None"),
 	Up		UMETA(DisplayName = "Up"),
@@ -29,15 +32,27 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	EMovementInputEnum MovementSwitch;
+	EInputEnum MovementSwitch;
 
 	FVector InputVector = FVector(0, 0, 0);
 
-	UFUNCTION(BlueprintCallable, Category = Movement)
-	void SetInput(const EMovementInputEnum InInputKey, const bool bPressed);
+	void OnMoveUpPressed();
+	void OnMoveUpReleased();
+
+	void OnMoveDownPressed();
+	void OnMoveDownReleased();
+
+	void OnMoveLeftPressed();
+	void OnMoveLeftReleased();
+
+	void OnMoveRightPressed();
+	void OnMoveRightReleased();
 
 
-	TMap<EMovementInputEnum, bool> InputMap;
+	UFUNCTION(BlueprintCallable, Category = Input)
+	void SetInput(const EInputEnum InInputAction, const bool bPressed);
+
+	TMap<EInputEnum, bool> InputMap;
 
 	int8 MovementKeysPressedNum = 0;
 
