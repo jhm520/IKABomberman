@@ -72,6 +72,11 @@ void ABomberCharacter::OnMoveRightReleased()
 	SetInput(EInputEnum::Right, false);
 }
 
+//void ABomberCharacter::OnPlaceBombPressed()
+//{
+//
+//}
+
 void ABomberCharacter::SetInput(const EInputEnum InInputAction, const bool bPressed)
 {
 	bool* FoundInput = InputMap.Find(InInputAction);
@@ -162,6 +167,8 @@ void ABomberCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 		InputComponent->BindAction("P1_MoveRight", IE_Pressed, this, &ABomberCharacter::OnMoveRightPressed);
 		InputComponent->BindAction("P1_MoveRight", IE_Released, this, &ABomberCharacter::OnMoveRightReleased);
+
+		InputComponent->BindAction("P1_PlaceBomb", IE_Pressed, this, &ABomberCharacter::OnPlaceBombPressed);
 	}
 	else if (PlayerID == 1)
 	{
@@ -176,6 +183,8 @@ void ABomberCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 		InputComponent->BindAction("P2_MoveRight", IE_Pressed, this, &ABomberCharacter::OnMoveRightPressed);
 		InputComponent->BindAction("P2_MoveRight", IE_Released, this, &ABomberCharacter::OnMoveRightReleased);
+
+		InputComponent->BindAction("P2_PlaceBomb", IE_Pressed, this, &ABomberCharacter::OnPlaceBombPressed);
 	}
 
 }

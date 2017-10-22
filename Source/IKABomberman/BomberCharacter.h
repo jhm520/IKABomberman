@@ -48,6 +48,9 @@ protected:
 	void OnMoveRightPressed();
 	void OnMoveRightReleased();
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Input")
+	void OnPlaceBombPressed();
+
 
 	UFUNCTION(BlueprintCallable, Category = Input)
 	void SetInput(const EInputEnum InInputAction, const bool bPressed);
