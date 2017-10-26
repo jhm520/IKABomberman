@@ -6,6 +6,24 @@
 #include "GameFramework/GameModeBase.h"
 #include "BomberGameMode.generated.h"
 
+UENUM(BlueprintType)
+enum class EEndGameState : uint8
+{
+	RedWin,
+	RedWin_BlueSuicide,
+	BlueWin,
+	BlueWin_RedSuicide,
+	Draw_TimeRanOut,
+	Draw_BothDied
+};
+
+UENUM(BlueprintType)
+enum class EPlayerColor : uint8
+{
+	Red,
+	Blue
+};
+
 /**
  * 
  */

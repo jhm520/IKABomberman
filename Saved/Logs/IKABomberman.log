@@ -1,4 +1,4 @@
-﻿Log file open, 10/24/17 18:46:16
+﻿Log file open, 10/25/17 15:43:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: IKABomberman
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1916143375) SRandInit(-1916143375).
+LogInit: Display: RandInit(-1665599649) SRandInit(-1665599649).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.162830
+LogStats: Stats thread started at 0.154080
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -111,320 +111,906 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.25-01.46.16:847][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.25-01.46.16:847][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.25-01.46.16:855][  0]LogInit: Computer: JETBOT
-[2017.10.25-01.46.16:855][  0]LogInit: User: jhm52
-[2017.10.25-01.46.16:855][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.25-01.46.16:855][  0]LogInit: High frequency timer resolution =4.101564 MHz
-[2017.10.25-01.46.16:855][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.10.25-01.46.16:855][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.25-01.46.16:855][  0]LogMemory: Process Physical Memory: 279.87 MB used, 279.87 MB peak
-[2017.10.25-01.46.16:855][  0]LogMemory: Process Virtual Memory: 290.25 MB used, 290.25 MB peak
-[2017.10.25-01.46.16:855][  0]LogMemory: Physical Memory: 8730.07 MB used,  23956.88 MB free, 32686.94 MB total
-[2017.10.25-01.46.16:855][  0]LogMemory: Virtual Memory: 685.06 MB used,  23956.88 MB free, 134217728.00 MB total
-[2017.10.25-01.46.16:956][  0]LogInit: Using OS detected language (en-US).
-[2017.10.25-01.46.16:956][  0]LogInit: Using OS detected locale (en-US).
-[2017.10.25-01.46.16:957][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.10.25-01.46.17:433][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.25-01.46.17:864][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.10.25-01.46.17:864][  0]LogD3D11RHI:       6049/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.10.25-01.46.17:865][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.25-01.46.17:865][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.25-01.46.17:865][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.25-01.46.17:870][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.25-01.46.17:870][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.25-01.46.17:870][  0]LogWindows: EnumDisplayDevices:
-[2017.10.25-01.46.17:870][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.10.25-01.46.17:870][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2017.10.25-01.46.17:870][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.25-01.46.17:870][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.25-01.46.17:870][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.25-01.46.17:870][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.10.25-01.46.17:870][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
-[2017.10.25-01.46.17:870][  0]LogD3D11RHI:      Driver Date: 7-18-2017
-[2017.10.25-01.46.17:870][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.25-01.46.18:287][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.25-01.46.18:309][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.25-01.46.18:314][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (D:/GitHub/IKABomberman/Intermediate/Shaders/WorkingDirectory/12604/).
-[2017.10.25-01.46.18:314][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jhm52/AppData/Local/Temp/UnrealShaderWorkingDir/D79FBB894D077E8E837E2D8090DDBEB8/'.
-[2017.10.25-01.46.18:314][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.25-01.46.18:919][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.25-01.46.18:953][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.25-01.46.18:990][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.25-01.46.19:025][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.25-01.46.19:059][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.25-01.46.19:094][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.25-01.46.19:129][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.25-01.46.19:164][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.25-01.46.19:195][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.25-01.46.19:228][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.25-01.46.19:262][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.25-01.46.19:296][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.25-01.46.19:330][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.25-01.46.19:364][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.25-01.46.19:399][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.25-01.46.19:463][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.25-01.46.19:463][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.25-01.46.19:488][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.25-01.46.19:558][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.25-01.46.19:578][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.25-01.46.19:611][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.25-01.46.19:644][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.25-01.46.19:677][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.25-01.46.19:711][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.25-01.46.19:711][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.25-01.46.20:044][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.25-01.46.20:110][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.25-01.46.20:110][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jhm52/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.25-01.46.20:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/IKABomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.25-01.46.20:110][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.25-01.46.20:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/IKABomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.25-01.46.20:110][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.25-01.46.20:121][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.25-01.46.20:132][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jhm52/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.25-01.46.20:140][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.25-01.46.20:140][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.25-01.46.20:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.25-01.46.20:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.25-01.46.20:325][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
-[2017.10.25-01.46.20:399][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.25-01.46.20:496][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.25-01.46.20:701][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.25-01.46.20:727][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.25-01.46.20:727][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.25-01.46.20:727][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.25-01.46.20:727][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.25-01.46.20:727][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.25-01.46.20:973][  0]LogNetVersion: IKABomberman , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582060667)
-[2017.10.25-01.46.21:117][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.030183 seconds
-[2017.10.25-01.46.21:121][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.25-01.46.21:121][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.10.25-01.46.21:121][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.25-01.46.21:162][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.25-01.46.22:834][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.25-01.46.22:865][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.25-01.46.23:333][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.25-01.46.23:603][  0]SourceControl: Source control is disabled
-[2017.10.25-01.46.23:603][  0]SourceControl: Source control is disabled
-[2017.10.25-01.46.23:634][  0]SourceControl: Source control is disabled
-[2017.10.25-01.46.23:665][  0]SourceControl: Source control is disabled
-[2017.10.25-01.46.24:050][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.25-01.46.24:211][  0]LogOcInput: OculusInput pre-init called
-[2017.10.25-01.46.24:390][  0]LogEngine: Initializing Engine...
-[2017.10.25-01.46.24:406][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2017.10.25-01.46.24:569][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.25-01.46.24:569][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.25-01.46.24:654][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.25-01.46.24:671][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-01.46.24:682][  0]LogInit: FAudioDevice initialized.
-[2017.10.25-01.46.24:781][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.25-01.46.24:793][  0]LogInit: Texture streaming: Enabled
-[2017.10.25-01.46.24:873][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.25-01.46.25:016][  0]LogInit: Transaction tracking system initialized
-[2017.10.25-01.46.25:217][  0]BlueprintLog: New page: Editor Load
-[2017.10.25-01.46.25:797][  0]LocalizationService: Localization service is disabled
-[2017.10.25-01.46.26:249][  0]LogConsoleResponse: Display: 
-[2017.10.25-01.46.26:384][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.25-01.46.26:384][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.25-01.46.26:384][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.25-01.46.26:564][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Content/' took 0.01s
-[2017.10.25-01.46.27:077][  0]SourceControl: Source control is disabled
-[2017.10.25-01.46.27:077][  0]Cmd: MAP LOAD FILE="D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.25-01.46.27:078][  0]LightingResults: New page: Lighting Build
-[2017.10.25-01.46.27:105][  0]MapCheck: New page: Map Check
-[2017.10.25-01.46.27:105][  0]LightingResults: New page: Lighting Build
-[2017.10.25-01.46.27:309][  0]LogAIModule: Creating AISystem for world BomberMap
-[2017.10.25-01.46.27:341][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.25-01.46.27:350][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.25-01.46.27:381][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.047ms to complete.
-[2017.10.25-01.46.27:381][  0]LogFileHelpers: Loading map 'BomberMap' took 0.304
-[2017.10.25-01.46.27:508][  0]LogCollectionManager: Loaded 0 collections in 0.001944 seconds
-[2017.10.25-01.46.27:577][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Saved/Collections/' took 0.01s
-[2017.10.25-01.46.27:577][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Content/Developers/jhm52/Collections/' took 0.01s
-[2017.10.25-01.46.27:577][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Content/Collections/' took 0.01s
-[2017.10.25-01.46.27:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.10.25-01.46.27:584][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2391 classes and 502 folders.
-[2017.10.25-01.46.27:628][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.10.25-01.46.27:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2017.10.25-01.46.27:681][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2017.10.25-01.46.27:727][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.25-01.46.27:728][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.25-01.46.27:732][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.25-01.46.27:807][  0]LogRenderer: Reallocating scene render targets to support 1068x516 Format 10 NumSamples 1 (Frame:1).
-[2017.10.25-01.46.27:835][  0]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.25-01.46.27:921][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2017.10.25-01.46.27:921][  0]LogLoad: (Engine Initialization) Total time: 12.73 seconds
-[2017.10.25-01.46.27:921][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.25-01.46.27:921][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.25-01.46.27:921][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.25-01.46.28:273][  0]LogAssetRegistry: Asset discovery search completed in 7.9694 seconds
-[2017.10.25-01.46.28:274][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.10.25-01.46.28:274][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2017.10.25-01.46.28:276][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.25-01.46.29:258][  3]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.25-01.46.30:793][187]LogEditorViewport: Clicking on Actor (LMB): BP_HUD_C (BP_HUD)
-[2017.10.25-01.46.34:341][607]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-01.46.34:368][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.46.34:368][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-01.46.34:368][607]PIE: New page: PIE session: BomberMap (Oct 24, 2017, 11:46:34 AM)
-[2017.10.25-01.46.34:368][607]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BomberMap
-[2017.10.25-01.46.34:375][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006948s)
-[2017.10.25-01.46.34:375][607]LogAIModule: Creating AISystem for world BomberMap
-[2017.10.25-01.46.34:376][607]LogPlayLevel: PIE: World Init took: (0.000501s)
-[2017.10.25-01.46.34:376][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BomberMap.BomberMap to /Game/Maps/UEDPIE_0_BomberMap.BomberMap (0.007631s)
-[2017.10.25-01.46.34:393][607]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-01.46.34:401][607]LogInit: FAudioDevice initialized.
-[2017.10.25-01.46.34:443][607]LogLoad: Game class is 'BP_BomberGameMode_C'
-[2017.10.25-01.46.34:449][607]PIE: Warning: AttachTo: '/Game/Maps/UEDPIE_0_BomberMap.BomberMap:PersistentLevel.RedBomb_GEN_VARIABLE_BP_Bomb_C_CAT_288.SphereCollision' is not static  (in blueprint "BP_Bomb"), cannot attach '/Game/Maps/UEDPIE_0_BomberMap.BomberMap:PersistentLevel.RedBomb_GEN_VARIABLE_BP_Bomb_C_CAT_288.Bomb' which is static to it. Aborting.
-[2017.10.25-01.46.34:449][607]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BomberMap.BomberMap up for play (max tick rate 0) at 2017.10.24-18.46.34
-[2017.10.25-01.46.34:449][607]LogWorld: Bringing up level for play took: 0.005346
-[2017.10.25-01.46.34:477][607]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
-[2017.10.25-01.46.34:478][607]Set new viewmode: Unlit
-[2017.10.25-01.46.34:480][607]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BomberMap 0.513
-[2017.10.25-01.46.34:480][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.46.34:857][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.46.34:895][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.46.35:299][693]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.10.25-01.46.58:745][493]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:ReceiveTick' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:Root' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:CenterText' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:BlueBombCount' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:BluePowerUp' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:RedBombCount' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:RedPowerUp' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:Timer' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:BlueWins' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:RedWins' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:BlueBomb' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:RedBomb' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C:UserConstructionScript' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.SKEL_BP_HUD_C' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:Root' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:CenterText' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:BlueBombCount' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:BluePowerUp' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:RedBombCount' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:RedPowerUp' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:Timer' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:BlueWins' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:RedWins' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:BlueBomb' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:RedBomb' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:768][493]LogMetaData: Removing '/Game/Actors/BP_HUD.BP_HUD_C:UserConstructionScript' ref from Metadata '/Game/BP_HUD.PackageMetaData'
-[2017.10.25-01.46.58:787][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_HUD" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset" SILENT=true
-[2017.10.25-01.46.58:804][493]LogSavePackage: Save=14.98ms
-[2017.10.25-01.46.58:804][493]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_HUD3FEF819246F3D6BF855C569130E886AA.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset'
-[2017.10.25-01.46.58:805][493]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset
-[2017.10.25-01.46.58:807][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_HUD" FILE="D:/GitHub/IKABomberman/Content/BP_HUD.uasset" SILENT=true
-[2017.10.25-01.46.58:819][493]LogSavePackage: Save=3.09ms
-[2017.10.25-01.46.58:819][493]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_HUD4EA05DDB4B46EA1505BF6EA73706BBFE.tmp' to 'D:/GitHub/IKABomberman/Content/BP_HUD.uasset'
-[2017.10.25-01.46.58:821][493]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/BP_HUD.uasset
-[2017.10.25-01.47.02:407][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BomberMap" FILE="D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.25-01.47.02:657][919]LogSavePackage: Save=236.34ms
-[2017.10.25-01.47.02:657][919]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BomberMap66B40E3F451F584335899B8095984078.tmp' to 'D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap'
-[2017.10.25-01.47.02:658][919]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap
-[2017.10.25-01.47.02:682][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BomberMap_BuiltData" FILE="D:/GitHub/IKABomberman/Content/Maps/BomberMap_BuiltData.uasset" SILENT=true
-[2017.10.25-01.47.02:697][919]LogSavePackage: Save=8.91ms
-[2017.10.25-01.47.02:697][919]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BomberMap_BuiltDataD166F26346E0A99545291D8AF05631C3.tmp' to 'D:/GitHub/IKABomberman/Content/Maps/BomberMap_BuiltData.uasset'
-[2017.10.25-01.47.02:697][919]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Maps/BomberMap_BuiltData.uasset
-[2017.10.25-01.47.03:073][934]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 113 classes and 0 folders.
-[2017.10.25-01.47.03:497][934]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.25-01.47.03:540][934]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.25-01.47.18:162][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_HUD" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset" SILENT=true
-[2017.10.25-01.47.18:183][670]LogSavePackage: Save=14.58ms
-[2017.10.25-01.47.18:183][670]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_HUDCA6C20A94E4297780BF71092DF19F8B4.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset'
-[2017.10.25-01.47.18:185][670]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset
-[2017.10.25-01.47.19:092][779]BlueprintLog: New page: Compile BP_HUD
-[2017.10.25-01.47.20:013][864]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-01.47.20:032][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.20:032][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-01.47.20:032][864]PIE: New page: PIE session: BomberMap (Oct 24, 2017, 11:47:20 AM)
-[2017.10.25-01.47.20:032][864]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BomberMap
-[2017.10.25-01.47.20:040][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007439s)
-[2017.10.25-01.47.20:040][864]LogAIModule: Creating AISystem for world BomberMap
-[2017.10.25-01.47.20:040][864]LogPlayLevel: PIE: World Init took: (0.000480s)
-[2017.10.25-01.47.20:040][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BomberMap.BomberMap to /Game/Maps/UEDPIE_0_BomberMap.BomberMap (0.008114s)
-[2017.10.25-01.47.20:062][864]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-01.47.20:070][864]LogInit: FAudioDevice initialized.
-[2017.10.25-01.47.20:123][864]LogLoad: Game class is 'BP_BomberGameMode_C'
-[2017.10.25-01.47.20:129][864]PIE: Warning: AttachTo: '/Game/Maps/UEDPIE_0_BomberMap.BomberMap:PersistentLevel.RedBomb_GEN_VARIABLE_BP_Bomb_C_CAT_288.SphereCollision' is not static  (in blueprint "BP_Bomb"), cannot attach '/Game/Maps/UEDPIE_0_BomberMap.BomberMap:PersistentLevel.RedBomb_GEN_VARIABLE_BP_Bomb_C_CAT_288.Bomb' which is static to it. Aborting.
-[2017.10.25-01.47.20:129][864]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BomberMap.BomberMap up for play (max tick rate 0) at 2017.10.24-18.47.20
-[2017.10.25-01.47.20:129][864]LogWorld: Bringing up level for play took: 0.005075
-[2017.10.25-01.47.20:130][864]Set new viewmode: Unlit
-[2017.10.25-01.47.20:132][864]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BomberMap 0.165
-[2017.10.25-01.47.20:133][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.20:168][864]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2017.10.25-01.47.20:902][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.20:951][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.28:798][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BomberMap" FILE="D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.25-01.47.29:070][874]LogSavePackage: Save=254.22ms
-[2017.10.25-01.47.29:070][874]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BomberMap8BAB76964BC9B520AACA1E900E1AA622.tmp' to 'D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap'
-[2017.10.25-01.47.29:072][874]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap
-[2017.10.25-01.47.29:096][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BomberMap_BuiltData" FILE="D:/GitHub/IKABomberman/Content/Maps/BomberMap_BuiltData.uasset" SILENT=true
-[2017.10.25-01.47.29:110][874]LogSavePackage: Save=7.29ms
-[2017.10.25-01.47.29:110][874]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BomberMap_BuiltData85CC3C8A44A76B92F8DD2A99BF8179CD.tmp' to 'D:/GitHub/IKABomberman/Content/Maps/BomberMap_BuiltData.uasset'
-[2017.10.25-01.47.29:110][874]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Maps/BomberMap_BuiltData.uasset
-[2017.10.25-01.47.35:921][642]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_334.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.35:922][642]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_48.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.35:922][642]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_335.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.35:922][642]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_49.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.36:217][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
-[2017.10.25-01.47.36:310][675]LogSavePackage: Save=87.39ms
-[2017.10.25-01.47.36:310][675]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb4CF52F9C4FCCEE6153ACFBBFBB540430.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
-[2017.10.25-01.47.36:312][675]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
-[2017.10.25-01.47.36:772][730]BlueprintLog: New page: Compile BP_Bomb
-[2017.10.25-01.47.37:260][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_4.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.37:260][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_5.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.37:262][730]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_289.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.37:262][730]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_290.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.25-01.47.37:871][782]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-01.47.37:894][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.37:895][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-01.47.37:895][782]PIE: New page: PIE session: BomberMap (Oct 24, 2017, 11:47:37 AM)
-[2017.10.25-01.47.37:895][782]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BomberMap
-[2017.10.25-01.47.37:901][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006737s)
-[2017.10.25-01.47.37:902][782]LogAIModule: Creating AISystem for world BomberMap
-[2017.10.25-01.47.37:902][782]LogPlayLevel: PIE: World Init took: (0.000436s)
-[2017.10.25-01.47.37:902][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BomberMap.BomberMap to /Game/Maps/UEDPIE_0_BomberMap.BomberMap (0.007351s)
-[2017.10.25-01.47.37:926][782]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-01.47.37:934][782]LogInit: FAudioDevice initialized.
-[2017.10.25-01.47.37:992][782]LogLoad: Game class is 'BP_BomberGameMode_C'
-[2017.10.25-01.47.37:997][782]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BomberMap.BomberMap up for play (max tick rate 0) at 2017.10.24-18.47.37
-[2017.10.25-01.47.37:998][782]LogWorld: Bringing up level for play took: 0.005063
-[2017.10.25-01.47.37:999][782]Set new viewmode: Unlit
-[2017.10.25-01.47.38:001][782]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BomberMap 0.034
-[2017.10.25-01.47.38:002][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.38:904][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.38:961][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.42:441][984]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-01.47.42:456][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.42:456][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-01.47.42:456][984]PIE: New page: PIE session: BomberMap (Oct 24, 2017, 11:47:42 AM)
-[2017.10.25-01.47.42:456][984]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BomberMap
-[2017.10.25-01.47.42:464][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007137s)
-[2017.10.25-01.47.42:464][984]LogAIModule: Creating AISystem for world BomberMap
-[2017.10.25-01.47.42:465][984]LogPlayLevel: PIE: World Init took: (0.000457s)
-[2017.10.25-01.47.42:465][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BomberMap.BomberMap to /Game/Maps/UEDPIE_0_BomberMap.BomberMap (0.007809s)
-[2017.10.25-01.47.42:488][984]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-01.47.42:496][984]LogInit: FAudioDevice initialized.
-[2017.10.25-01.47.42:558][984]LogLoad: Game class is 'BP_BomberGameMode_C'
-[2017.10.25-01.47.42:564][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BomberMap.BomberMap up for play (max tick rate 0) at 2017.10.24-18.47.42
-[2017.10.25-01.47.42:564][984]LogWorld: Bringing up level for play took: 0.005045
-[2017.10.25-01.47.42:565][984]Set new viewmode: Unlit
-[2017.10.25-01.47.42:570][984]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BomberMap 0.603
-[2017.10.25-01.47.42:571][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.43:177][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.43:244][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
-[2017.10.25-01.47.45:432][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_HUD" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset" SILENT=true
-[2017.10.25-01.47.45:453][289]LogSavePackage: Save=14.77ms
-[2017.10.25-01.47.45:453][289]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_HUDEF9D1538407603EAA1923EAEDCD1F82E.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset'
-[2017.10.25-01.47.45:454][289]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_HUD.uasset
+[2017.10.25-22.43.53:406][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-22.43.53:406][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.25-22.43.53:414][  0]LogInit: Computer: JETBOT
+[2017.10.25-22.43.53:414][  0]LogInit: User: jhm52
+[2017.10.25-22.43.53:414][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.25-22.43.53:414][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2017.10.25-22.43.53:414][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.25-22.43.53:414][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-22.43.53:414][  0]LogMemory: Process Physical Memory: 279.21 MB used, 279.21 MB peak
+[2017.10.25-22.43.53:414][  0]LogMemory: Process Virtual Memory: 282.36 MB used, 282.36 MB peak
+[2017.10.25-22.43.53:414][  0]LogMemory: Physical Memory: 9140.92 MB used,  23546.02 MB free, 32686.94 MB total
+[2017.10.25-22.43.53:414][  0]LogMemory: Virtual Memory: 677.06 MB used,  23546.02 MB free, 134217728.00 MB total
+[2017.10.25-22.43.53:523][  0]LogInit: Using OS detected language (en-US).
+[2017.10.25-22.43.53:523][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.25-22.43.53:525][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.25-22.43.54:000][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.25-22.43.54:452][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.10.25-22.43.54:452][  0]LogD3D11RHI:       6049/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.25-22.43.54:453][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.25-22.43.54:453][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.25-22.43.54:453][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.25-22.43.54:458][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.25-22.43.54:458][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.25-22.43.54:458][  0]LogWindows: EnumDisplayDevices:
+[2017.10.25-22.43.54:458][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.10.25-22.43.54:458][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.10.25-22.43.54:458][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.25-22.43.54:458][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.25-22.43.54:458][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.25-22.43.54:458][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.10.25-22.43.54:458][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.10.25-22.43.54:458][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.10.25-22.43.54:458][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.25-22.43.54:867][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.25-22.43.54:895][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.25-22.43.54:896][  0]LogShaderCompilers: Guid format shader working directory is 24 characters bigger than the processId version (D:/GitHub/IKABomberman/Intermediate/Shaders/WorkingDirectory/4564/).
+[2017.10.25-22.43.54:896][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jhm52/AppData/Local/Temp/UnrealShaderWorkingDir/E67BB5D641F223250A7132BAA31DBF8A/'.
+[2017.10.25-22.43.54:896][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.25-22.43.55:519][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.25-22.43.55:553][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.25-22.43.55:589][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.25-22.43.55:623][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.25-22.43.55:658][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.25-22.43.55:692][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.25-22.43.55:729][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.25-22.43.55:765][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.25-22.43.55:794][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.25-22.43.55:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.25-22.43.55:859][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.25-22.43.55:893][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.25-22.43.55:926][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.25-22.43.55:960][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.25-22.43.55:992][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.25-22.43.56:056][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.25-22.43.56:056][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.25-22.43.56:081][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.25-22.43.56:148][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.25-22.43.56:168][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.25-22.43.56:201][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.25-22.43.56:233][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.25-22.43.56:268][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.25-22.43.56:300][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.25-22.43.56:300][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.25-22.43.56:629][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.25-22.43.56:696][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-22.43.56:696][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jhm52/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.25-22.43.56:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/IKABomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.25-22.43.56:696][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.25-22.43.56:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/IKABomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.25-22.43.56:696][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.25-22.43.56:707][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.25-22.43.56:719][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jhm52/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.25-22.43.56:726][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.25-22.43.56:726][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.25-22.43.56:727][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-22.43.56:727][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-22.43.56:921][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2017.10.25-22.43.57:003][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-22.43.57:101][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.25-22.43.57:312][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.25-22.43.57:338][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.25-22.43.57:338][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.25-22.43.57:338][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.25-22.43.57:338][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.25-22.43.57:338][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.25-22.43.57:578][  0]LogNetVersion: IKABomberman , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582060667)
+[2017.10.25-22.43.57:716][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.029495 seconds
+[2017.10.25-22.43.57:720][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.25-22.43.57:720][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.25-22.43.57:720][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.25-22.43.57:762][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.25-22.43.59:481][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.25-22.43.59:515][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.25-22.43.59:986][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.25-22.44.00:270][  0]SourceControl: Source control is disabled
+[2017.10.25-22.44.00:270][  0]SourceControl: Source control is disabled
+[2017.10.25-22.44.00:302][  0]SourceControl: Source control is disabled
+[2017.10.25-22.44.00:333][  0]SourceControl: Source control is disabled
+[2017.10.25-22.44.00:719][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.25-22.44.00:880][  0]LogOcInput: OculusInput pre-init called
+[2017.10.25-22.44.01:052][  0]LogEngine: Initializing Engine...
+[2017.10.25-22.44.01:068][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.10.25-22.44.01:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.25-22.44.01:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.25-22.44.01:315][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-22.44.01:329][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.25-22.44.01:342][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-22.44.01:424][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-22.44.01:436][  0]LogInit: Texture streaming: Enabled
+[2017.10.25-22.44.01:512][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.25-22.44.01:654][  0]LogInit: Transaction tracking system initialized
+[2017.10.25-22.44.01:853][  0]BlueprintLog: New page: Editor Load
+[2017.10.25-22.44.02:437][  0]LocalizationService: Localization service is disabled
+[2017.10.25-22.44.02:893][  0]LogConsoleResponse: Display: 
+[2017.10.25-22.44.03:025][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.25-22.44.03:025][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.25-22.44.03:025][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.25-22.44.03:745][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Content/' took 0.01s
+[2017.10.25-22.44.03:745][  0]SourceControl: Source control is disabled
+[2017.10.25-22.44.03:745][  0]Cmd: MAP LOAD FILE="D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-22.44.03:745][  0]LightingResults: New page: Lighting Build
+[2017.10.25-22.44.03:772][  0]MapCheck: New page: Map Check
+[2017.10.25-22.44.03:772][  0]LightingResults: New page: Lighting Build
+[2017.10.25-22.44.04:017][  0]LogAIModule: Creating AISystem for world BomberMap
+[2017.10.25-22.44.04:025][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-22.44.04:033][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-22.44.04:064][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.869ms to complete.
+[2017.10.25-22.44.04:064][  0]LogFileHelpers: Loading map 'BomberMap' took 0.320
+[2017.10.25-22.44.04:192][  0]LogCollectionManager: Loaded 0 collections in 0.002063 seconds
+[2017.10.25-22.44.04:261][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Saved/Collections/' took 0.01s
+[2017.10.25-22.44.04:261][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Content/Developers/jhm52/Collections/' took 0.01s
+[2017.10.25-22.44.04:261][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/IKABomberman/Content/Collections/' took 0.01s
+[2017.10.25-22.44.04:261][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.25-22.44.04:269][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2391 classes and 502 folders.
+[2017.10.25-22.44.04:311][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.10.25-22.44.04:337][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.10.25-22.44.04:371][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.10.25-22.44.04:420][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-22.44.04:422][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.25-22.44.04:426][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.25-22.44.04:501][  0]LogRenderer: Reallocating scene render targets to support 1068x516 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-22.44.04:616][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.10.25-22.44.04:617][  0]LogLoad: (Engine Initialization) Total time: 12.85 seconds
+[2017.10.25-22.44.04:617][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.25-22.44.04:617][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.25-22.44.04:617][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.25-22.44.04:973][  0]LogAssetRegistry: Asset discovery search completed in 8.0728 seconds
+[2017.10.25-22.44.04:974][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.25-22.44.04:974][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.10.25-22.44.04:976][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.25-22.44.05:011][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-22.44.05:958][  3]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-22.44.14:531][480]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-22.44.14:775][480]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 113 classes and 0 folders.
+[2017.10.25-22.44.15:202][480]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-22.44.15:246][480]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.25-22.44.15:388][481]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.25-22.44.33:670][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.44.33:760][663]LogSavePackage: Save=78.49ms
+[2017.10.25-22.44.33:760][663]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode8EC049B54AED38986B249885CF93A24B.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.44.33:761][663]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.44.59:994][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.45.00:072][685]LogSavePackage: Save=70.46ms
+[2017.10.25-22.45.00:072][685]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode5569412D44C6524C217CB9BD9363CC07.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.45.00:074][685]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.45.01:073][805]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.45.03:413][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.45.03:490][ 30]LogSavePackage: Save=70.14ms
+[2017.10.25-22.45.03:490][ 30]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode329E3AF64F1D32F112882B8F31655841.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.45.03:491][ 30]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.45.06:606][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.45.06:683][401]LogSavePackage: Save=69.73ms
+[2017.10.25-22.45.06:683][401]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameModeB2C1790347D99F778EC7BE80DA051733.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.45.06:684][401]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.45.15:880][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.45.15:959][493]LogSavePackage: Save=71.50ms
+[2017.10.25-22.45.15:959][493]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode6C4E70F64E559B6582643881F101D7E9.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.45.15:961][493]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.45.16:267][528]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.45.18:365][725]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.25-22.45.54:419][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.45.54:497][ 18]LogSavePackage: Save=70.48ms
+[2017.10.25-22.45.54:497][ 18]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode66983B6249E74B2E308C8D873D71DB52.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.45.54:499][ 18]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.45.54:800][ 54]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.45.55:469][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.45.55:546][ 81]LogSavePackage: Save=70.15ms
+[2017.10.25-22.45.55:546][ 81]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode007AE5BF4B001D391DDB22B518BB1425.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.45.55:547][ 81]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.46.06:205][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.46.06:284][358]LogSavePackage: Save=70.73ms
+[2017.10.25-22.46.06:284][358]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode3710947047B7A25EA6C9F494A3CF757C.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.46.06:285][358]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.46.26:930][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_BomberCharacter" FILE="D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset" SILENT=true
+[2017.10.25-22.46.26:996][789]LogSavePackage: Save=54.77ms
+[2017.10.25-22.46.26:996][789]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberCharacter2B514B454A36DA873C3F488059C19ADD.tmp' to 'D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset'
+[2017.10.25-22.46.26:998][789]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset
+[2017.10.25-22.46.27:263][820]BlueprintLog: New page: Compile BP_BomberCharacter
+[2017.10.25-22.46.59:199][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_BomberCharacter" FILE="D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset" SILENT=true
+[2017.10.25-22.46.59:259][565]LogSavePackage: Save=52.74ms
+[2017.10.25-22.46.59:259][565]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberCharacter7ADAF6E84DC83EF1509C0F900653E74E.tmp' to 'D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset'
+[2017.10.25-22.46.59:261][565]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset
+[2017.10.25-22.46.59:743][623]BlueprintLog: New page: Compile BP_BomberCharacter
+[2017.10.25-22.47.00:481][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_BomberCharacter" FILE="D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset" SILENT=true
+[2017.10.25-22.47.00:545][658]LogSavePackage: Save=56.83ms
+[2017.10.25-22.47.00:546][658]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberCharacter4C0685F54B4F1CD5E9DE25BC9A4CA37F.tmp' to 'D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset'
+[2017.10.25-22.47.00:546][658]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset
+[2017.10.25-22.47.09:426][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.47.09:504][711]LogSavePackage: Save=70.20ms
+[2017.10.25-22.47.09:504][711]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode816A0D7F4527C7EF3ED341BD4582CC38.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.47.09:505][711]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.47.46:182][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.47.46:265][995]LogSavePackage: Save=75.48ms
+[2017.10.25-22.47.46:265][995]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode3EE6E3964C5CE53A98BBB1BB55A807C4.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.47.46:266][995]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.47.49:331][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.47.49:408][361]LogSavePackage: Save=70.19ms
+[2017.10.25-22.47.49:408][361]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode14F4036842A73345143E5B905F0C0C03.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.47.49:410][361]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.47.49:856][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.47.49:940][413]LogSavePackage: Save=76.20ms
+[2017.10.25-22.47.49:940][413]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode97E005FF4437EAE72A192FA0F8545AF8.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.47.49:941][413]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.47.50:175][441]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.48.01:767][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.48.01:848][758]LogSavePackage: Save=73.52ms
+[2017.10.25-22.48.01:848][758]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameModeA0CFDC774E9D1D14806DFDBC3F1B4512.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.48.01:849][758]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.48.02:109][788]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.48.11:965][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.48.12:052][920]LogSavePackage: Save=78.98ms
+[2017.10.25-22.48.12:052][920]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode970CCCB64CDFCB5F8D923EB767877FA5.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.48.12:053][920]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.48.18:548][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.48.18:633][696]LogSavePackage: Save=76.81ms
+[2017.10.25-22.48.18:633][696]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode96966F684450D13E21FC66822285F2E8.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.48.18:635][696]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.48.18:903][727]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.48.19:554][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.48.19:637][750]LogSavePackage: Save=75.04ms
+[2017.10.25-22.48.19:637][750]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameModeA3A3B4BE46C582315E809BA4DE5B47E8.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.48.19:638][750]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.49.38:852][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.49.38:942][178]LogSavePackage: Save=77.55ms
+[2017.10.25-22.49.38:942][178]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode56CA0DEE4C53CF18554D5AA7D2B60AFA.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.49.38:944][178]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.49.42:484][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.49.42:572][600]LogSavePackage: Save=81.73ms
+[2017.10.25-22.49.42:572][600]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode2E30DC3949FD4B528F779C934249C280.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.49.42:574][600]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.49.51:895][716]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.50.00:813][724]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.50.32:615][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-22.50.32:705][250]LogSavePackage: Save=82.50ms
+[2017.10.25-22.50.32:705][250]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameModeE831891D474609E8816EA8BCC4C5F836.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-22.50.32:707][250]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-22.50.32:940][277]BlueprintLog: New page: Compile BP_BomberGameMode
+[2017.10.25-22.53.02:742][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.53.02:852][ 87]LogSavePackage: Save=98.38ms
+[2017.10.25-22.53.02:852][ 87]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb77F368A141AC251A9D5874883A3DB706.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.53.02:854][ 87]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.53.03:121][119]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-22.53.03:511][119]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1279.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.03:511][119]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.03:833][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.53.03:932][148]LogSavePackage: Save=91.75ms
+[2017.10.25-22.53.03:932][148]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb66736D2F46BD82AEF197A8A70AA48F0E.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.53.03:933][148]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.53.04:949][269]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.53.04:996][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.53.04:996][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.53.04:997][269]PIE: New page: PIE session: BomberMap (Oct 25, 2017, 8:53:04 AM)
+[2017.10.25-22.53.04:997][269]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BomberMap
+[2017.10.25-22.53.05:000][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003636s)
+[2017.10.25-22.53.05:001][269]LogAIModule: Creating AISystem for world BomberMap
+[2017.10.25-22.53.05:001][269]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2017.10.25-22.53.05:001][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BomberMap.BomberMap to /Game/Maps/UEDPIE_0_BomberMap.BomberMap (0.004271s)
+[2017.10.25-22.53.05:023][269]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.25-22.53.05:032][269]LogInit: FAudioDevice initialized.
+[2017.10.25-22.53.05:107][269]LogLoad: Game class is 'BP_BomberGameMode_C'
+[2017.10.25-22.53.05:109][269]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BomberMap.BomberMap up for play (max tick rate 0) at 2017.10.25-15.53.05
+[2017.10.25-22.53.05:110][269]LogWorld: Bringing up level for play took: 0.001140
+[2017.10.25-22.53.05:140][269]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.10.25-22.53.05:141][269]Set new viewmode: Unlit
+[2017.10.25-22.53.05:142][269]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BomberMap 0.743
+[2017.10.25-22.53.05:142][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.53.05:210][269]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-22.53.20:267][ 48]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	BP_Explosion_C /Game/Maps/UEDPIE_0_BomberMap.BomberMap:PersistentLevel.BP_Explosion_C_920
+	Function /Game/Actors/BP_Explosion.BP_Explosion_C:ExecuteUbergraph_BP_Explosion:0000
+[2017.10.25-22.53.20:267][ 48]PIE: Error: Infinite Loop detected in  BP_Explosion , asserted during  Event BeginPlay with the following  Call Stack
+[2017.10.25-22.53.20:272][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.53.20:331][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.53.22:987][349]LogEditorTransaction: Undo Move Node
+[2017.10.25-22.53.22:993][349]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1285.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.22:993][349]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1284.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.23:697][424]LogEditorTransaction: Undo Create Pin Link
+[2017.10.25-22.53.23:703][424]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1288.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.23:703][424]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1289.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.24:144][469]LogEditorTransaction: Undo Create Pin Link
+[2017.10.25-22.53.24:150][469]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1293.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.24:150][469]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1292.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.24:636][520]LogEditorTransaction: Undo Add Node
+[2017.10.25-22.53.24:642][520]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1297.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.24:642][520]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1296.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.32:492][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.53.32:588][445]LogSavePackage: Save=87.61ms
+[2017.10.25-22.53.32:588][445]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombEC97F262427CF2174B4664A70659F594.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.53.32:590][445]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.53.33:273][527]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-22.53.33:655][527]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.33:655][527]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.53.35:357][724]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.53.35:384][724]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.53.35:384][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.53.35:385][724]PIE: New page: PIE session: BomberMap (Oct 25, 2017, 8:53:35 AM)
+[2017.10.25-22.53.35:385][724]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BomberMap
+[2017.10.25-22.53.35:388][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003456s)
+[2017.10.25-22.53.35:388][724]LogAIModule: Creating AISystem for world BomberMap
+[2017.10.25-22.53.35:389][724]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2017.10.25-22.53.35:389][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BomberMap.BomberMap to /Game/Maps/UEDPIE_0_BomberMap.BomberMap (0.004043s)
+[2017.10.25-22.53.35:410][724]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.25-22.53.35:418][724]LogInit: FAudioDevice initialized.
+[2017.10.25-22.53.35:469][724]LogLoad: Game class is 'BP_BomberGameMode_C'
+[2017.10.25-22.53.35:471][724]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BomberMap.BomberMap up for play (max tick rate 0) at 2017.10.25-15.53.35
+[2017.10.25-22.53.35:471][724]LogWorld: Bringing up level for play took: 0.001190
+[2017.10.25-22.53.35:472][724]Set new viewmode: Unlit
+[2017.10.25-22.53.35:473][724]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BomberMap 1.074
+[2017.10.25-22.53.35:473][724]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.53.37:993][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.53.38:044][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.54.35:590][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BomberMap" FILE="D:/GitHub/IKABomberman/Saved/Autosaves/Game/Maps/BomberMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.25-22.54.35:925][874]LogSavePackage: Save=324.26ms
+[2017.10.25-22.54.35:925][874]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BomberMap_Auto10F6ADAB54A66955ADD82D7B000AA3523.tmp' to 'D:/GitHub/IKABomberman/Saved/Autosaves/Game/Maps/BomberMap_Auto1.umap'
+[2017.10.25-22.54.35:926][874]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Saved/Autosaves/Game/Maps/BomberMap_Auto1.umap
+[2017.10.25-22.54.35:928][874]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BomberMap' took 0.352
+[2017.10.25-22.54.35:928][874]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.352
+[2017.10.25-22.54.35:929][874]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameMode/BP_BomberGameMode] ([1] browsable assets)...
+[2017.10.25-22.54.35:929][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameMode/BP_BomberGameMode]
+[2017.10.25-22.54.35:929][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Saved/Autosaves/Game/GameMode/BP_BomberGameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.25-22.54.36:012][874]LogSavePackage: Save=76.35ms
+[2017.10.25-22.54.36:012][874]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode_Auto1A8C58C754E2A53476104EF8C57DD4549.tmp' to 'D:/GitHub/IKABomberman/Saved/Autosaves/Game/GameMode/BP_BomberGameMode_Auto1.uasset'
+[2017.10.25-22.54.36:013][874]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Saved/Autosaves/Game/GameMode/BP_BomberGameMode_Auto1.uasset
+[2017.10.25-22.54.36:013][874]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.10.25-22.56.22:393][608]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1286.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.56.22:393][608]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1285.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.56.53:983][370]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1289.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.56.53:984][370]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1290.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.56.56:865][707]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1294.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.56.56:865][707]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1293.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.56.57:163][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.56.57:267][732]LogSavePackage: Save=95.44ms
+[2017.10.25-22.56.57:267][732]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombC06507EA478A90C05F9C02BF90BD1F37.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.56.57:269][732]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.56.57:908][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.56.57:998][807]LogSavePackage: Save=82.07ms
+[2017.10.25-22.56.57:998][807]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb0143FE744622F85BB18A2AB7A6419063.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.56.57:999][807]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.56.58:207][832]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-22.56.58:608][832]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.56.58:608][832]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.31:973][814]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1286.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.31:973][814]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1285.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.32:466][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.57.32:563][863]LogSavePackage: Save=88.51ms
+[2017.10.25-22.57.32:563][863]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombC27DDACC48CFC7C6CDA7ECA6C60931BE.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.57.32:564][863]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.57.33:153][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.57.33:245][932]LogSavePackage: Save=84.65ms
+[2017.10.25-22.57.33:245][932]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb60F793BE4ED0128AD2A2F0B707C8F8BE.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.57.33:245][932]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.57.33:612][976]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-22.57.33:995][976]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.33:995][976]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.40:784][781]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1286.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.40:784][781]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1285.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.40:790][781]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1290.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.40:790][781]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1289.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.56:641][669]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1294.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.56:641][669]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1293.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.56:647][669]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1298.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.56:647][669]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1297.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.57:567][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.57.57:669][769]LogSavePackage: Save=94.10ms
+[2017.10.25-22.57.57:669][769]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb574BE7ED444E23D2CE7D7C904B79E5A3.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.57.57:670][769]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.57.57:887][795]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-22.57.58:278][795]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.57.58:278][795]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.58.09:534][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.58.09:635][107]LogSavePackage: Save=89.29ms
+[2017.10.25-22.58.09:635][107]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb3FA85FF6444BAD419FFCD7A172EBECF5.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.58.09:637][107]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.58.10:403][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.58.10:492][197]LogSavePackage: Save=82.00ms
+[2017.10.25-22.58.10:492][197]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb6B59ACE44BEDC0D73F2DE4BBC2D4A06D.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.58.10:493][197]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.58.10:786][231]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-22.58.11:170][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.58.11:170][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.58.22:220][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-22.58.22:316][535]LogSavePackage: Save=88.94ms
+[2017.10.25-22.58.22:316][535]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombBF0AC7B14B1203F2F3E70E9BBB3CC7B4.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-22.58.22:318][535]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-22.59.01:382][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-22.59.01:425][202]LogSavePackage: Save=30.55ms
+[2017.10.25-22.59.01:425][202]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Explosion3ED3B60C4DB6AD86F719ADA02E83B934.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-22.59.01:426][202]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-22.59.02:111][284]BlueprintLog: New page: Compile BP_Explosion
+[2017.10.25-22.59.02:531][284]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.59.02:532][284]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-22.59.02:730][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-22.59.02:767][304]LogSavePackage: Save=30.25ms
+[2017.10.25-22.59.02:767][304]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Explosion1A712FBC4DDEAE4F632A05B62F2A7E94.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-22.59.02:768][304]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-22.59.53:669][404]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.59.53:700][404]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-22.59.53:700][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.59.53:700][404]PIE: New page: PIE session: BomberMap (Oct 25, 2017, 8:59:53 AM)
+[2017.10.25-22.59.53:700][404]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BomberMap
+[2017.10.25-22.59.53:704][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003462s)
+[2017.10.25-22.59.53:704][404]LogAIModule: Creating AISystem for world BomberMap
+[2017.10.25-22.59.53:704][404]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2017.10.25-22.59.53:704][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BomberMap.BomberMap to /Game/Maps/UEDPIE_0_BomberMap.BomberMap (0.004104s)
+[2017.10.25-22.59.53:728][404]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.25-22.59.53:737][404]LogInit: FAudioDevice initialized.
+[2017.10.25-22.59.53:792][404]LogLoad: Game class is 'BP_BomberGameMode_C'
+[2017.10.25-22.59.53:794][404]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BomberMap.BomberMap up for play (max tick rate 0) at 2017.10.25-15.59.53
+[2017.10.25-22.59.53:794][404]LogWorld: Bringing up level for play took: 0.001137
+[2017.10.25-22.59.53:795][404]Set new viewmode: Unlit
+[2017.10.25-22.59.53:795][404]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BomberMap -0.603
+[2017.10.25-22.59.53:796][404]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-23.00.03:198][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-23.00.03:256][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BomberMap.BomberMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap' with GeneratedClass '/Game/Maps/BomberMap.BomberMap_C' with ClassGeneratedBy '/Game/Maps/BomberMap.BomberMap:PersistentLevel.BomberMap'
+[2017.10.25-23.00.21:321][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.00.21:419][678]LogSavePackage: Save=89.94ms
+[2017.10.25-23.00.21:419][678]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb061A7B324F56891E7A0FFCB37FDC28A1.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.00.21:421][678]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.01.14:461][982]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.01.14:865][982]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.14:865][982]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.15:052][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.01.15:149][992]LogSavePackage: Save=89.88ms
+[2017.10.25-23.01.15:149][992]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombA2A0D9AB44D63A2CD928FBB26752CF25.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.01.15:149][992]LogFileManager: Warning: DeleteFile was unable to delete 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset', retrying in .5s...
+[2017.10.25-23.01.15:650][992]LogFileManager: Warning: DeleteFile recovered during retry!
+[2017.10.25-23.01.15:654][992]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.01.30:211][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.01.30:308][706]LogSavePackage: Save=89.81ms
+[2017.10.25-23.01.30:308][706]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombDA7689424C2A3DFDE9874B80DB6B70C3.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.01.30:310][706]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.01.30:559][735]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.01.30:943][735]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.30:943][735]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.43:876][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-23.01.43:913][268]LogSavePackage: Save=30.33ms
+[2017.10.25-23.01.43:913][268]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Explosion14B1F2AD48F5BDE3BF8D958708B49E86.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-23.01.43:915][268]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-23.01.44:215][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-23.01.44:246][302]LogSavePackage: Save=23.71ms
+[2017.10.25-23.01.44:246][302]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_ExplosionDE2FE75340AF9C7C3DDCF5A836803674.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-23.01.44:247][302]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-23.01.44:572][341]BlueprintLog: New page: Compile BP_Explosion
+[2017.10.25-23.01.44:990][341]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.44:990][341]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.49:044][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-23.01.49:082][820]LogSavePackage: Save=30.26ms
+[2017.10.25-23.01.49:082][820]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Explosion09449BB248464403FC23368F2DB8FBB7.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-23.01.49:084][820]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-23.01.50:223][956]BlueprintLog: New page: Compile BP_Explosion
+[2017.10.25-23.01.50:632][956]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.50:632][956]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.01.50:891][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-23.01.50:929][983]LogSavePackage: Save=29.79ms
+[2017.10.25-23.01.50:929][983]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Explosion6EA824C647602503FEFAF19684820153.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-23.01.50:930][983]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-23.02.04:581][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.02.04:691][592]LogSavePackage: Save=101.81ms
+[2017.10.25-23.02.04:691][592]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombD4C64C6847976AB8AFD9648C6D1492EE.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.02.04:693][592]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.02.05:324][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.02.05:417][666]LogSavePackage: Save=85.73ms
+[2017.10.25-23.02.05:417][666]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombEBD136B049D6F61D213AF7AA30D86B57.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.02.05:418][666]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.02.05:692][698]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.02.06:096][698]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.02.06:097][698]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.02.11:445][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.02.11:556][329]LogSavePackage: Save=102.83ms
+[2017.10.25-23.02.11:556][329]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb0FBE09C94CC074094CFEC8BF3EE5F5BD.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.02.11:557][329]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.02.32:819][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.02.32:921][847]LogSavePackage: Save=94.93ms
+[2017.10.25-23.02.32:921][847]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb1A98D2014A0AAA89C822DAAC82810006.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.02.32:923][847]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.02.33:806][953]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.02.34:193][953]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.02.34:193][953]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.02.36:728][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.02.36:827][247]LogSavePackage: Save=91.46ms
+[2017.10.25-23.02.36:828][247]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb867B9EA548495E51E8AA63809754E842.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.02.36:828][247]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.02.53:837][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_BomberCharacter" FILE="D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset" SILENT=true
+[2017.10.25-23.02.53:903][238]LogSavePackage: Save=55.42ms
+[2017.10.25-23.02.53:903][238]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberCharacterE3D36E4A47FC64DB651DD1893001696D.tmp' to 'D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset'
+[2017.10.25-23.02.53:905][238]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset
+[2017.10.25-23.02.54:728][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_BomberCharacter" FILE="D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset" SILENT=true
+[2017.10.25-23.02.54:779][335]LogSavePackage: Save=44.06ms
+[2017.10.25-23.02.54:779][335]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberCharacter27F947CE44EF8E4A337591A2BAD3919C.tmp' to 'D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset'
+[2017.10.25-23.02.54:779][335]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Characters/BP_BomberCharacter.uasset
+[2017.10.25-23.02.55:054][367]BlueprintLog: New page: Compile BP_BomberCharacter
+[2017.10.25-23.02.55:593][367]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.02.55:593][367]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.02.59:335][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_BomberGameMode" FILE="D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset" SILENT=true
+[2017.10.25-23.02.59:423][804]LogSavePackage: Save=77.37ms
+[2017.10.25-23.02.59:423][804]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BomberGameMode101D1C7D4BA74E983E62119B7DA4C2EC.tmp' to 'D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset'
+[2017.10.25-23.02.59:427][804]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/GameMode/BP_BomberGameMode.uasset
+[2017.10.25-23.03.24:826][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.03.24:935][793]LogSavePackage: Save=96.38ms
+[2017.10.25-23.03.24:935][793]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb38A0C1804581C2B5A0B65DBA81CAF7FA.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.03.24:937][793]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.03.26:776][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.03.26:872][ 12]LogSavePackage: Save=88.72ms
+[2017.10.25-23.03.26:872][ 12]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombAF04276A40206B82B14182951F413EAD.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.03.26:874][ 12]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.03.27:472][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.03.27:565][ 82]LogSavePackage: Save=85.95ms
+[2017.10.25-23.03.27:565][ 82]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb16F3E2B448FE2B501054B4B8AAF82297.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.03.27:566][ 82]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.03.27:842][114]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.03.28:261][114]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.03.28:261][114]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.03.45:470][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.03.45:573][123]LogSavePackage: Save=94.27ms
+[2017.10.25-23.03.45:573][123]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb6CB3ADC8475512D6A039E2A5C60D6D56.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.03.45:575][123]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.03.53:666][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.03.53:769][ 56]LogSavePackage: Save=94.87ms
+[2017.10.25-23.03.53:769][ 56]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombF6605E6C45B4719CA691658B6D99180E.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.03.53:771][ 56]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.04.04:234][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.04.04:336][283]LogSavePackage: Save=93.85ms
+[2017.10.25-23.04.04:336][283]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb005A18E04F83CC80C7D187A643A0BA8F.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.04.04:338][283]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.04.05:003][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.04.05:098][361]LogSavePackage: Save=87.53ms
+[2017.10.25-23.04.05:098][361]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb9952CAFB4580520C6AF11E95CCDA9C44.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.04.05:099][361]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.04.05:391][396]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.04.05:782][396]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.04.05:782][396]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.04.06:086][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.04.06:195][422]LogSavePackage: Save=102.38ms
+[2017.10.25-23.04.06:195][422]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombBB8AF994470693F6286EE3B722ADD34E.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.04.06:196][422]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.04.44:678][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.04.44:776][ 29]LogSavePackage: Save=89.41ms
+[2017.10.25-23.04.44:776][ 29]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb80816D97496F7330E10FDBB956234E2C.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.04.44:777][ 29]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.05.41:633][837]BlueprintLog: New page: Compile BP_Explosion
+[2017.10.25-23.05.42:065][837]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.05.42:065][837]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.05.55:763][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-23.05.55:807][465]LogSavePackage: Save=30.87ms
+[2017.10.25-23.05.55:807][465]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_ExplosionE55CDD6647849E84F2789B934C940118.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-23.05.55:809][465]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-23.05.56:075][497]BlueprintLog: New page: Compile BP_Explosion
+[2017.10.25-23.05.56:079][497]LogBlueprint: Warning: [Compiler BP_Explosion] Variable ParentBomb is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.10.25-23.05.56:080][497]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/Actors/BP_Explosion.BP_Explosion_C:ParentBomb', MetaData 'True', Flag 'False'
+[2017.10.25-23.05.56:080][497]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/Actors/BP_Explosion.BP_Explosion_C:ParentBomb', MetaData 'True', Flag 'False'
+[2017.10.25-23.05.56:080][497]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/Actors/BP_Explosion.BP_Explosion_C:ParentBomb', MetaData 'True', Flag 'False'
+[2017.10.25-23.05.56:101][497]LogBlueprint: Warning: [Compiler BP_Explosion] Variable ParentBomb is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.10.25-23.05.56:503][497]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.05.56:504][497]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.05.56:506][497]LogBlueprint: Warning: [Compiler BP_Explosion] [1324.74] Compile of BP_Explosion successful, but with 2 Warning(s) [in 430 ms] (/Game/Actors/BP_Explosion.BP_Explosion)
+[2017.10.25-23.06.04:581][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-23.06.04:618][452]LogSavePackage: Save=30.09ms
+[2017.10.25-23.06.04:618][452]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Explosion29FFEB0B46A0C592174C04A3EA96D008.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-23.06.04:620][452]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-23.06.04:913][487]BlueprintLog: New page: Compile BP_Explosion
+[2017.10.25-23.06.05:335][487]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.05:335][487]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.06:608][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/BP_Explosion" FILE="D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset" SILENT=true
+[2017.10.25-23.06.06:646][635]LogSavePackage: Save=30.82ms
+[2017.10.25-23.06.06:646][635]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_ExplosionC616EB084858F9EE40B5BF818C2A532B.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset'
+[2017.10.25-23.06.06:647][635]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/BP_Explosion.uasset
+[2017.10.25-23.06.09:894][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.06.09:994][ 15]LogSavePackage: Save=93.34ms
+[2017.10.25-23.06.09:994][ 15]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_BombF2DF187F4FFDD75EC649938C2BC4F313.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.06.09:995][ 15]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.06.10:653][ 94]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.06.11:046][ 94]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.11:046][ 94]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.31:879][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Bombs/BP_Bomb" FILE="D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset" SILENT=true
+[2017.10.25-23.06.31:983][580]LogSavePackage: Save=96.37ms
+[2017.10.25-23.06.31:983][580]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BP_Bomb41F462F544FEAC701441C989F7BBC14E.tmp' to 'D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset'
+[2017.10.25-23.06.31:984][580]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Actors/Bombs/BP_Bomb.uasset
+[2017.10.25-23.06.33:201][726]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.06.33:597][726]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.33:597][726]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.34:436][820]BlueprintLog: New page: Compile BP_Bomb
+[2017.10.25-23.06.34:822][820]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1282.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.34:822][820]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BomberMap.BomberMap:PersistentLevel.DESTROYED_BP_Bomb_C_CHILDACTOR_1281.SphereCollision) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.25-23.06.36:926][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BomberMap" FILE="D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-23.06.37:058][919]LogSavePackage: Save=106.65ms
+[2017.10.25-23.06.37:058][919]LogSavePackage: Moving 'D:/GitHub/IKABomberman/Saved/BomberMap04E7B5EE4DE30B9DBB7F12B1A152F2CC.tmp' to 'D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap'
+[2017.10.25-23.06.37:059][919]LogSavePackage: Display: Finished SavePackage D:/GitHub/IKABomberman/Content/Maps/BomberMap.umap
+[2017.10.25-23.06.37:082][919]LogFileHelpers: Saving map 'BomberMap' took 0.191
+[2017.10.25-23.06.37:192][919]LogScript: Warning: Accessed None trying to read property BomberGameMode
+	BP_BomberCharacter_C /Engine/Transient.World_2:PersistentLevel.BP_BomberCharacter_C_1
+	Function /Game/Characters/BP_BomberCharacter.BP_BomberCharacter_C:ExecuteUbergraph_BP_BomberCharacter:0994
+[2017.10.25-23.06.37:193][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.25-23.06.37:245][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.25-23.06.37:293][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.25-23.06.37:484][920]Cmd: QUIT_EDITOR
+[2017.10.25-23.06.38:415][920]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-23.06.38:421][920]LogExit: Preparing to exit.
+[2017.10.25-23.06.39:074][920]LogExit: Editor shut down
+[2017.10.25-23.06.39:077][920]LogExit: Transaction tracking system shut down
+[2017.10.25-23.06.39:204][920]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.25-23.06.39:205][920]LogDirectoryWatcher: A directory notification for 'D:/GitHub/IKABomberman/Content/' was aborted.
+[2017.10.25-23.06.39:205][920]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.25-23.06.39:205][920]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.25-23.06.39:205][920]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.25-23.06.39:257][920]LogExit: Object subsystem successfully closed.
+[2017.10.25-23.06.39:274][920]LogD3D11RHI: Shutdown
+[2017.10.25-23.06.39:274][920]LogD3D11RHI: CleanupD3DDevice
+[2017.10.25-23.06.39:322][920]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.10.25-23.06.39:331][920]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.10.25-23.06.39:331][920]LogDirectoryWatcher: A directory notification for 'D:/GitHub/IKABomberman/Content/Collections/' was aborted.
+[2017.10.25-23.06.39:331][920]LogDirectoryWatcher: A directory notification for 'D:/GitHub/IKABomberman/Content/Developers/jhm52/Collections/' was aborted.
+[2017.10.25-23.06.39:331][920]LogDirectoryWatcher: A directory notification for 'D:/GitHub/IKABomberman/Saved/Collections/' was aborted.
+[2017.10.25-23.06.39:331][920]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.10.25-23.06.39:332][920]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.10.25-23.06.40:131][920]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.10.25-23.06.40:186][920]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.10.25-23.06.40:192][920]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.10.25-23.06.40:372][920]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.10.25-23.06.40:373][920]LogDirectoryWatcher: A directory notification for 'D:/GitHub/IKABomberman/Binaries/Win64' was aborted.
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module IKABomberman (262)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.25-23.06.40:373][920]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.25-23.06.40:474][920]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.25-23.06.40:574][920]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.25-23.06.40:575][920]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.25-23.06.40:576][920]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.25-23.06.40:577][920]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.25-23.06.40:626][920]LogDerivedDataCache: Shutdown
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.25-23.06.40:626][920]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.25-23.06.40:627][920]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.25-23.06.40:627][920]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.25-23.06.40:627][920]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.25-23.06.40:627][920]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE9304298-4730-1D7E-66DB-F9813F3AA21E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=208ea999496556d4f47c4a8ffb8597a8%7C6c14aff20c4647fcb1fd613877e452df%7C3d357995-db55-409e-a349-21772727df74&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.25-23.06.40:638][920]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.25-23.06.40:639][920]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.25-23.06.40:639][920]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.25-23.06.40:639][920]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.25-23.06.40:639][920]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.25-23.06.40:639][920]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.25-23.06.40:639][920]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.25-23.06.40:639][920]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.25-23.06.40:640][920]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.25-23.06.40:642][920]LogExit: Exiting.
+[2017.10.25-23.06.40:654][920]Log file closed, 10/25/17 16:06:40
