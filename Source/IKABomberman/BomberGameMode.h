@@ -9,6 +9,7 @@
 UENUM(BlueprintType)
 enum class EEndGameState : uint8
 {
+	None,
 	RedWin,
 	RedWin_BlueSuicide,
 	BlueWin,
