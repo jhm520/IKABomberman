@@ -48,8 +48,14 @@ protected:
 	void OnMoveRightPressed();
 	void OnMoveRightReleased();
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "Input")
+	UFUNCTION(BlueprintNativeEvent, Category = "Input")
 	void OnPlaceBombPressed();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Input")
+	void OnDetonatePressed();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Bombs")
+	void SpawnBomb(int32 ExplosionSize, bool IsRemote);
 
 
 	UFUNCTION(BlueprintCallable, Category = Input)
@@ -59,6 +65,9 @@ protected:
 
 	int8 MovementKeysPressedNum = 0;
 
+	//Bombs
+	UPROPERTY(BlueprintReadWrite, Category = "Bombs")
+	int32 CurrentBombs;
 
 	void TickMovement();
 

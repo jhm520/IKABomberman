@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "Bomb.generated.h"
 
+class USphereComponent;
+class AExplosion;
+
 UCLASS()
 class IKABOMBERMAN_API ABomb : public AActor
 {
@@ -22,7 +25,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	
 	
 };

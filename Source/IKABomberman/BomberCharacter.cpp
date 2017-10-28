@@ -72,6 +72,10 @@ void ABomberCharacter::OnMoveRightReleased()
 	SetInput(EInputEnum::Right, false);
 }
 
+void ABomberCharacter::OnPlaceBombPressed_Implementation()
+{
+}
+
 //void ABomberCharacter::OnPlaceBombPressed()
 //{
 //
@@ -169,6 +173,9 @@ void ABomberCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 		InputComponent->BindAction("P1_MoveRight", IE_Released, this, &ABomberCharacter::OnMoveRightReleased);
 
 		InputComponent->BindAction("P1_PlaceBomb", IE_Pressed, this, &ABomberCharacter::OnPlaceBombPressed);
+
+		InputComponent->BindAction("P1_Detonate", IE_Pressed, this, &ABomberCharacter::OnDetonatePressed);
+
 	}
 	else if (PlayerID == 1)
 	{
@@ -185,6 +192,8 @@ void ABomberCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 		InputComponent->BindAction("P2_MoveRight", IE_Released, this, &ABomberCharacter::OnMoveRightReleased);
 
 		InputComponent->BindAction("P2_PlaceBomb", IE_Pressed, this, &ABomberCharacter::OnPlaceBombPressed);
+
+		InputComponent->BindAction("P2_Detonate", IE_Pressed, this, &ABomberCharacter::OnDetonatePressed);
 	}
 
 }
